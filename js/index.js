@@ -18,3 +18,9 @@ function myf4(){
     y.innerHTML="dickey mouse"; 
     z.innerHTML="queeny wrong"; 
 }
+function myf5(){
+    let currentDate = new Date();
+    let time = currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
+    x=document.getElementById("demo5");
+    x.innerHTML=time; 
+}
