@@ -1,13 +1,12 @@
-.s1 {
-    margin: none;
+body {
+    color:wheat
 }
 
 body {
-    background-image: url("../image/05.jpg");
+    background-image: url("../image/web_background.webp");
     background-size: cover;
 }
 
 p {
-    font-size:24px;
     font-style: italic;
 }

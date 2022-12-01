@@ -6,15 +6,24 @@
 
     <body>
         <script src="./js/index.js"></script>
-        <h1>Movie review</h1>
-        <div class="s1">
-            <p>Hi,my name is Alex and my partner is </p>
-            <button id = "demo" type = "button" onclick=myf() >ken</button>
-            <button id = "demo2" type = "button" onclick=myf2() >dickey mouse</button>
-            <button id = "demo3" type = "button" onclick=myf3() >queeny wrong</button>
-        </div>
-    <hr>
-        <button id = "demo4" type = "button" onclick=myf4() >reset</button>
-        <button id = "demo5" type = "button" onclick=myf5()>now time</button>
+        <h1>BMI calculator</h1>
+        <p>Please input your height(m) and weight(kg)</p>
+        <br>
+        <form action="/url" method="GET">
+            <label for="height"> Please enter your height(m):</label>
+                <input type="text" id="height" name="height" minlength="3" maxlength="20" required> 
+        </form>
+        <form action="/url" method="GET">
+            <label for="weight"> Please enter your height(m):</label>
+                <input type="text" id="weight" name="weight" minlength="3" maxlength="20" required> 
+        </form>
+        <hr>
+        <button id="submit" onclick=f()>Submit</button>
+        <p>Your BMI result:</p>
+        <p id = "x"></p> 
+        <img src="" id="y">
+        <br>
+        <br>
+        <button id="demo" onclick=myf()>current time</button>  
     </body>
 </html>
